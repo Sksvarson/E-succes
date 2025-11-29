@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-SUCCES - Strona Startowa</title>
+    <!-- Font Awesome dla ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts - Inter dla nowoczesnej typografii -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-shadow-overlay"></div>
+    <header>
+        <div class="container">
+            <div class="logo">E-SUCCES</div>
+            <nav>
+                <ul>
+                    <li><a href="start_page.html">Strona Główna</a></li>
+                    <li><a href="start_page.html#ebooks">E-booki</a></li>
+                    <li><a href="start_page.html#about">O NAS</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h1>Odkryj Swój Potencjał z <br> E-SUCCES</h1>
+                <p>Twoja droga do zdrowia, sukcesu i spełnienia zaczyna się tutaj. Przeglądaj nasze e-booki i znajdź inspirację do zmiany.</p>
+                <div class="hero-buttons">
+                    <a href="#ebooks"><button class="btn-primary">Zobacz E-booki</button></a>
+                    <a href="#about"><button class="btn-secondary">Dowiedz się więcej</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="transition-section">
+            <div class="container transition-inner">
+                <div class="scroll-cue" aria-hidden="true">
+                </div>
+            </div>
+        </section>
+
+        <section class="divider-section" aria-hidden="true">
+            <div class="divider-wrap">
+                <div class="parallax" aria-hidden="true">
+                    <div class="layer layer-bg" data-depth="0.08"></div>
+                    <div class="layer layer-grid" data-depth="0.12"></div>
+                    <div class="layer layer-orbs" data-depth="0.25">
+                        <span class="orb" style="--x:8%;--y:22%;--s:18vmin"></span>
+                        <span class="orb" style="--x:78%;--y:36%;--s:14vmin"></span>
+                        <span class="orb" style="--x:58%;--y:12%;--s:22vmin"></span>
+                        <span class="orb" style="--x:28%;--y:68%;--s:16vmin"></span>
+                    </div>
+                    <div class="layer layer-shapes" data-depth="0.4">
+                        <span class="shape rhomb" style="--x:18%;--y:48%;--r:12"></span>
+                        <span class="shape circle" style="--x:62%;--y:58%;--r:-8"></span>
+                        <span class="shape square" style="--x:42%;--y:28%;--r:5"></span>
+                    </div>
+                    <div class="layer layer-fore" data-depth="0.65">
+                        <div class="tagline">
+                            <span class="kicker">Twoja droga</span>
+                            <div class="headline-roller">
+                                <div class="headline-track">
+                                    <div class="headline-item">Od inspiracji do działania</div>
+                                    <div class="headline-item">Znajdź swój kierunek</div>
+                                    <div class="headline-item">Wdrażaj wiedzę codziennie</div>
+                                    <div class="headline-item">Mierz efekty i rośnij</div>
+                                </div>
+                            </div>
+                            <div class="headline-dots" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <section class="transition-section last">
+            <div class="container transition-inner">
+                <div class="scroll-cue" aria-hidden="true">
+                </div>
+            </div>
+        </section>
+        
+        <section class="ebooks-section" id="ebooks">
+            <div class="container">
+                <div class="ebooks-header">
+                    <h2>Nasze E-booki</h2>
+                    <div class="filters-wrapper">
+                        <div class="search-input-wrapper">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="ebook-search" placeholder="Szukaj po tytule, autorze..." />
+                        </div>
+                        <select id="category-filter" class="category-select">
+                            <option value="">Wszystkie kategorie</option>
+                            <option value="Rozwój Osobisty">Rozwój Osobisty</option>
+                            <option value="Biznes">Biznes</option>
+                            <option value="Zdrowie">Zdrowie</option>
+                            <option value="Finanse">Finanse</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="ebooks-grid" id="ebooks-grid">
+                    <div class="ebook-card" data-title="NOWA TY!" data-author="E-SUCCES Team" data-category="Rozwój Osobisty">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>NOWA TY!</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Rozwój Osobisty</p>
+                            <div class="ebook-price">29,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="ebook-card" data-title="Rozwój Osobisty" data-author="E-SUCCES Team" data-category="Rozwój Osobisty">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>Rozwój Osobisty</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Rozwój Osobisty</p>
+                            <div class="ebook-price">34,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="ebook-card" data-title="Sukces w Biznesie" data-author="E-SUCCES Team" data-category="Biznes">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>Sukces w Biznesie</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Biznes</p>
+                            <div class="ebook-price">32,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="ebook-card" data-title="Zdrowie i Witalność" data-author="E-SUCCES Team" data-category="Zdrowie">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>Zdrowie i Witalność</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Zdrowie</p>
+                            <div class="ebook-price">31,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="ebook-card" data-title="Motywacja i Cel" data-author="E-SUCCES Team" data-category="Rozwój Osobisty">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>Motywacja i Cel</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Rozwój Osobisty</p>
+                            <div class="ebook-price">28,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="ebook-card" data-title="Finanse Osobiste" data-author="E-SUCCES Team" data-category="Finanse">
+                        <div class="ebook-cover">
+                            <div class="ebook-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="ebook-info">
+                            <h3>Finanse Osobiste</h3>
+                            <p class="ebook-author">E-SUCCES Team</p>
+                            <p class="ebook-category">Finanse</p>
+                            <div class="ebook-price">33,99 zł</div>
+                            <button class="ebook-btn">Zobacz więcej</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-results" id="no-results" style="display: none;">
+                    <p>Nie znaleziono e-booków pasujących do wyszukiwania.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="transition-section">
+            <div class="container transition-inner">
+                <div class="scroll-cue" aria-hidden="true">
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-section" id="about">
+            <div class="about-section-gradient-overlay"></div>
+            <div class="about-dynamic-dots"></div>
+            <div class="container about-grid">
+                <div class="about-quote">
+                    <div class="quote-content">
+                        <div class="quote-mark">“</div>
+                        <blockquote>
+                            <p>Najlepszy moment na działanie jest teraz. Sukces zaczyna się od decyzji, by spróbować.</p>
+                        </blockquote>
+                        <div class="quote-author">E-SUCCES Team</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-heading">
+                        <span class="about-subtitle">Kim jesteśmy?</span>
+                        <h2><span class="about-icon"><i class="fas fa-seedling"></i></span> O NAS</h2>
+                    </div>
+                    <p>
+                        Jesteśmy pasjonatami rozwoju, zdrowia i osiągania celów! Nasza misja to inspirować, edukować i wspierać Cię w drodze do lepszej wersji siebie. Dzięki naszym e-bookom, praktycznemu podejściu i autorskim rozwiązaniom, pomagamy wprowadzać realne zmiany w codziennym życiu. Zmieniaj się z nami — łatwiej, szybciej i skuteczniej!
+                    </p>
+                    <p>
+                        Nasz zespół to eksperci oraz praktycy, którzy każdego dnia sami się rozwijają. Chcemy dzielić się tą pasją i doświadczeniem, dlatego tworzymy treści dopasowane do realnych potrzeb. Przekonaj się, jak łatwo możesz zacząć nową drogę wraz z E-SUCCES.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <a href="start_page.html">Strona Główna</a>
+                <a href="start_page.html#about">O NAS</a>
+                <a href="start_page.html#ebooks">E-booki</a>
+                <a href="start_page.html#ebooks">E-book NOWA TY!</a>
+            </div>
+            <div class="copyright">
+                Prawa autorskie - Wszystkie prawa zastrzeżone www.e-succes.pl 2025
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
